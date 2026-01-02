@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Contact Us | Geo-Ace - Drone Surveying & Geospatial Solutions
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <!-- Header & Navigation -->
+    <!-- Header & Navigation -->
+    <header>
+      <div class="container header-container">
+        <div class="logo">
+          <img src="Geo-Ace Surveyors favicon.webp" alt="Geo-Ace Logo" class="logo-img" />
+          <!-- Logo Provision -->
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="training.html">Training</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="mobile-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p>
+          Get in touch with our team to discuss your drone surveying and
+          geospatial needs
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+      <div class="container">
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="section-title">
+              <h2>Get In Touch</h2>
+            </div>
+            <p>
+              We're here to help you with all your drone surveying and
+              geospatial needs. Reach out to us through any of the following
+              methods.
+            </p>
+
+            <div class="contact-methods">
+              <div class="contact-method">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-details">
+                  <h3>Our Office</h3>
+                  <p>3rd Floor Mang'u House, Uhuru Street<br />Thika, Kenya</p>
+                </div>
+              </div>
+
+              <div class="contact-method">
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-details">
+                  <h3>Call Us</h3>
+                  <p>+254 742-063-679<br />Mon - Fri, 8:00 AM - 5:00 PM</p>
+                </div>
+              </div>
+
+              <div class="contact-method">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-details">
+                  <h3>Email Us</h3>
+                  <p>info@geoace.co.ke<br />We respond within 24 hours</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="business-hours">
+              <h3>Business Hours</h3>
+              <ul class="hours-list">
+                <li>
+                  <span class="day">Monday - Friday</span>
+                  <span>8:00 AM - 5:00 PM</span>
+                </li>
+                <li>
+                  <span class="day">Saturday</span>
+                  <span>9:00 AM - 1:00 PM</span>
+                </li>
+                <li>
+                  <span class="day">Sunday</span>
+                  <span>Closed</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <h3>Send Us a Message</h3>
+            <p>
+              Fill out the form below and we'll get back to you as soon as
+              possible.
+            </p>
+
+            <form id="contactForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="firstName">First Name *</label>
+                  <input
+                    type="text"
+                    id="firstName"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="lastName">Last Name *</label>
+                  <input
+                    type="text"
+                    id="lastName"
+                    class="form-control"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email Address *</label>
+                  <input
+                    type="email"
+                    id="email"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" class="form-control" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="company">Company/Organization</label>
+                <input type="text" id="company" class="form-control" />
+              </div>
+
+              <div class="form-group">
+                <label for="service">Service Required</label>
+                <select id="service" class="form-control">
+                  <option value="">Select a service</option>
+                  <option value="lidar">Drone LiDAR Surveys</option>
+                  <option value="engineering">
+                    Engineering & Land Surveys
+                  </option>
+                  <option value="inspection">
+                    Utility & Infrastructure Inspection
+                  </option>
+                  <option value="mapping">3D Mapping & Modeling</option>
+                  <option value="training">Drone Training</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message *</label>
+                <textarea
+                  id="message"
+                  class="form-control"
+                  rows="5"
+                  placeholder="Tell us about your project or inquiry..."
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Find Us</h2>
+        </div>
+        <div class="map-container">
+          <!-- In a real implementation, you would embed a Google Map here -->
+          <div class="map-placeholder">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.166626687453!2d37.073812574965245!3d-1.03559209895444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f4e8595031d79%3A0x13a4687084b0f802!2sMangu%20House!5e0!3m2!1sen!2ske!4v1767361696556!5m2!1sen!2ske" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Actions -->
+    <section class="quick-actions">
+      <div class="container">
+        <div class="section-title">
+          <h2>Quick Actions</h2>
+          <p>
+            Need immediate assistance? Here are some quick ways to get help.
+          </p>
+        </div>
+        <div class="actions-container">
+          <div class="action-card">
+            <div class="action-icon">
+              <i class="fas fa-calendar-check"></i>
+            </div>
+            <h3>Book a Consultation</h3>
+            <p>
+              Schedule a free consultation with our experts to discuss your
+              project requirements.
+            </p>
+            <a href="#" class="btn btn-primary">Schedule Now</a>
+          </div>
+
+          <div class="action-card">
+            <div class="action-icon">
+              <i class="fas fa-file-download"></i>
+            </div>
+            <h3>Download Brochure</h3>
+            <p>
+              Get our complete service catalog with detailed information about
+              all our offerings.
+            </p>
+            <a href="#" class="btn btn-outline">Download PDF</a>
+          </div>
+
+          <div class="action-card">
+            <div class="action-icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <h3>Call Now</h3>
+            <p>
+              Speak directly with our team for immediate assistance with your
+              inquiry.
+            </p>
+            <a href="tel:+254742063679" class="btn btn-primary"
+              >Call +254 742-063-679</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>Ready to Start Your Project?</h2>
+        <p>
+          Contact us today to discuss how our drone surveying solutions can
+          provide the accurate data you need.
+        </p>
+        <div class="cta-buttons">
+          <a href="tel:+254742063679" class="btn btn-primary">Call Now</a>
+          <a
+            href="#"
+            class="btn btn-outline"
+            style="color: white; border-color: white"
+            >Book a Consultation</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-column">
+            <h3>About Geo-Ace</h3>
+            <p>
+              Kenya's leading geospatial & drone-based surveying company
+              providing accurate data for smart decision-making across Africa.
+            </p>
+            <div class="social-links">
+              <a href="https://www.facebook.com/geoAcesurveys"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="https://x.com/GeoAcesurveys"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/channel/UCDc8Oco-4mmg6UgycVJLSuA"
+              >
+                <i class="fab fa-youtube"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/company/geo-Ace-surveys-engineering-solutions/"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="training.html">Training</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Services</h3>
+            <ul class="footer-links">
+              <li><a href="services.html">Drone LiDAR Surveys</a></li>
+              <li><a href="services.html">Engineering Surveys</a></li>
+              <li><a href="projects.html">Infrastructure Inspection</a></li>
+              <li><a href="projects.html">3D Mapping & Modeling</a></li>
+              <li><a href="training.html">Drone Training</a></li>
+              <li><a href="services.html">Geospatial Analytics</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Contact Us</h3>
+            <ul class="contact-info">
+              <li>
+                <i class="fas fa-map-marker-alt"></i
+                ><a href="https://maps.app.goo.gl/GSk6Fdj2tthiggHu5">
+                  <span>3rd Floor Mang'u House,Uhuru Street , Thika, Kenya</span></a
+                >
+              </li>
+              <li>
+                <i class="fas fa-phone"></i
+                ><a href="tel:+254723562484"> <span>+254 723-562-484</span></a>
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i
+                ><a href="mailto:info@geoAce.co.ke">
+                  <span>info@geoace.co.ke</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          &copy; 2026 Geo-Ace Surveys & Engineering. All Rights Reserved.
+
+          <p style="margin: 0; font-size: 13px; color: #777">
+            Crafted with <span style="color: red">❤</span> by
+            <a
+              href="https://sarahadevelopers.co.ke"
+              target="_blank"
+              rel="noopener"
+              style="color: goldenrod; text-decoration: none; font-weight: 500"
+            >
+              Saraha Developers
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+         <!-- WhatsApp Float -->
+    <a href="https://wa.me/254723562484" class="whatsapp-float" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+      </div>
+
+    <script src="contact.js"></script>
+  </body>
+</html>
