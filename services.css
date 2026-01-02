@@ -2,7 +2,7 @@
         --navy: #1b3a57;
         --green: #3e7d4e;
         --charcoal: #444444;
-        --orange: #f39c12;
+        --orange: #12f3a1;
         --light-blue: #a3bac3;
         --white: #ffffff;
         --light-gray: #f8f9fa;
@@ -266,7 +266,7 @@ header {
         justify-content: center;
         margin-right: 20px;
         font-size: 1.8rem;
-        color: var(--white);
+        color: var(--orange);
       }
 
       .category-title {

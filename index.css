@@ -2,7 +2,7 @@
         --navy: #1b3a57;
         --green: #3e7d4e;
         --charcoal: #444444;
-        --orange: #f39c12;
+        --orange: #12f3a1;
         --light-blue: #a3bac3;
         --white: #ffffff;
         --light-gray: #f8f9fa;
@@ -562,7 +562,7 @@ header {
 
 .industry-icon {
   font-size: 3rem;
-  color: rgb(27, 27, 141);
+  color: var(--orange);
   margin-bottom: 15px;
   width: 80px;
   height: 80px;

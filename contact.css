@@ -2,7 +2,7 @@
             --navy: #1B3A57;
             --green: #3E7D4E;
             --charcoal: #444444;
-            --orange: #F39C12;
+            --orange: #12f3a1;
             --light-blue: #A3BAC3;
             --white: #FFFFFF;
             --light-gray: #f8f9fa;
@@ -271,14 +271,14 @@ header {
         .contact-icon {
             width: 60px;
             height: 60px;
-            background: var(--light-gray);
+            background: var(--charcoal);
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             margin-right: 20px;
             font-size: 1.5rem;
-            color: var(--navy);
+            color: var(--orange);
         }
         
         .contact-details h3 {
@@ -430,7 +430,7 @@ header {
             align-items: center;
             justify-content: center;
             font-size: 1.8rem;
-            color: var(--white);
+            color: var(--orange);
         }
         
         .action-card h3 {
