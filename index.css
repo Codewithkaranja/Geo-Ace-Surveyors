@@ -30,6 +30,13 @@ a:hover {
         color: var(--charcoal);
         line-height: 1.6;
         overflow-x: hidden;
+            background: linear-gradient(
+      rgb(138, 142, 145), 
+      rgba(148, 153, 158, 0.826)
+    ),
+    url("Geo\ Ace\ favicon.png") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
       }
 
       h1,
@@ -549,7 +556,7 @@ header {
 
    .industries {
   padding: 80px 0;
-  background-color:var(--white);
+  background-color:rgba(255, 255, 255, 0.772);
   position: relative;
   overflow: hidden;
 }

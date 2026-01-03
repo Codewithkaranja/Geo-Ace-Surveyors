@@ -28,6 +28,14 @@ a:hover {
       body {
        font-family: 'Jost', sans-serif;
         color: var(--charcoal);
+         background: linear-gradient(
+      rgb(138, 142, 145), 
+      rgba(148, 153, 158, 0.826)
+    ),
+    url("Geo\ Ace\ favicon.png") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+      
         line-height: 1.6;
         overflow-x: hidden;
       }
@@ -517,7 +525,7 @@ header {
 
       .region-tooltip {
         position: absolute;
-        background: var(--navy);
+        background: white;
         color: var(--white);
         padding: 10px 15px;
         border-radius: 4px;
